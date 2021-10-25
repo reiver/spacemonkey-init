@@ -72,7 +72,7 @@ func doGemini() error {
 	logsrv.Logf("success — created README.txt file for Gemini Protocol at %q", readmepath)
 
 	{
-		fmt.Println("Initialized empty Gemini directory at", geminipath)
+		fmt.Println("Initialized empty directory for Gemini Protocol at", geminipath)
 	}
 
 	return nil

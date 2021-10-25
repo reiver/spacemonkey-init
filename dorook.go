@@ -72,7 +72,7 @@ func doRook() error {
 	logsrv.Logf("success — created README.txt file for Rook Protocol ♜ at %q", readmepath)
 
 	{
-		fmt.Println("Initialized empty Rook directory at", rookpath)
+		fmt.Println("Initialized empty directory for Rook Protocol ♜ at", rookpath)
 	}
 
 	return nil
